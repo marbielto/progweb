@@ -1,23 +1,56 @@
 <!DOCTYPE html>
-<html>
+<!--Marcos Gabriel Barreto RA: 102409-->
+<html lang="pt-br">
     <head>
         <title>
             Exercicio aula 08
         </title>
+        <meta charset="UTF-8">
     </head>
     <body>
-        <form method="get" action="enviar.php">
+        <form method="post" action="enviar.php">
             <h1>Formulário</h1>
-            <label> Nome: </label>
+            <label> Nome: </label> <br>
             <input type="text" name="nome">
-            <label> RA: </label>
+            <br><label> RA: </label> <br>
             <input type="text" name="ra">
-            <label> Curso: </label>
-            <select>
-                <option>Engenharia da Computação</option>
-                <option>Psicologia</option>
-                <option>Administração</option>
+            <br><label> Curso: </label> <br> 
+            <select name="curso">
+                <option value="Engenharia da Computação">Engenharia da Computação</option>
+                <option value="Psicologia">Psicologia</option>
+                <option value="Administração">Administração</option>
             </select> 
+            <br>
+            <label>Nota Ma1:</label>
+            <br>
+            <input type="number" name="ma1">
+            <br>
+            <label>Nota Mb1:</label>
+            <br>
+            <input type="number" name="mb1">
+            <br>
+            <label>Nota P1:</label>
+            <br>
+            <input type="number" name="p1">
+            <br>
+            <label>Nota Ma2:</label>
+            <br>
+            <input type="number" name="ma2">
+            <br>
+            <label>Nota Mb2:</label>
+            <br>
+            <input type="number" name="mb2">
+            <br>
+            <label>Nota P2:</label>
+            <br>
+            <input type="number" name="p2">
+            <br>
+            <label>Porcentagem de presença em aulas:</label>
+            <br>
+            <input type="number" name="presenca">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
         </form>
     
     </body>
