@@ -1,0 +1,32 @@
+#navegador{
+    background-color: #EB37AA;
+}
+
+header{
+    margin: 50px;
+}
+#botao{
+    color: white;
+
+}
+#textoprincipal{
+    color: white;
+}
+#navegador button{
+    border-color:red;
+}
+#navegador button:hover{
+    background-color:red;
+}
+p{
+    padding: 30px;
+    margin: 10px;
+    text-align: left;
+}
+img{
+    margin: 10px;
+    padding: 10px;
+}
+#h1-pag1{
+    color: #EB37AA;
+}
